@@ -88,6 +88,10 @@ img {
   background-color: #d33431;
 }
 
+.save-btn {
+  margin-top: 1.5rem;
+}
+
 .hidden {
   display: none;
 }
