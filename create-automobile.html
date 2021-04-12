@@ -185,12 +185,103 @@
             ></button>
           </div>
           <div class="save-load-btn-group">
-            <button type="button" class="btn btn-success save-btn">
+            <button
+              type="button"
+              class="btn btn-success save-btn"
+              data-toggle="modal"
+              data-target="#saveConfigModal"
+            >
               Save Configuration
             </button>
-            <button type="button" class="btn btn-info save-btn">
+            <button
+              type="button"
+              class="btn btn-info save-btn"
+              data-toggle="modal"
+              data-target="#loadConfigModal"
+            >
               Load Configuration
             </button>
+          </div>
+          <div
+            class="modal fade"
+            id="loadConfigModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="loadConfigModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="loadConfigModalLabel">
+                    Load Configuration
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Continuing will override your current configuration on screen.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    Continue
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            id="saveConfigModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="saveConfigModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="saveConfigModalLabel">
+                    Save Configuration
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">Your configuration has been saved.</div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    Continue
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
