@@ -26,6 +26,9 @@ function blueExterior() {
   document
     .querySelector(".exterior-front")
     .setAttribute("src", EXTERIOR_COLOUR_PATH + "blue_front.png");
+  document
+    .querySelector(".exterior-back")
+    .setAttribute("src", EXTERIOR_COLOUR_PATH + "blue_back.png");
 }
 
 function greyExterior() {
@@ -35,6 +38,9 @@ function greyExterior() {
   document
     .querySelector(".exterior-front")
     .setAttribute("src", EXTERIOR_COLOUR_PATH + "grey_front.png");
+  document
+    .querySelector(".exterior-back")
+    .setAttribute("src", EXTERIOR_COLOUR_PATH + "grey_back.png");
 }
 
 function redExterior() {
@@ -44,6 +50,9 @@ function redExterior() {
   document
     .querySelector(".exterior-front")
     .setAttribute("src", EXTERIOR_COLOUR_PATH + "red_front.png");
+  document
+    .querySelector(".exterior-back")
+    .setAttribute("src", EXTERIOR_COLOUR_PATH + "red_back.png");
 }
 
 function silverExterior() {
@@ -53,6 +62,9 @@ function silverExterior() {
   document
     .querySelector(".exterior-front")
     .setAttribute("src", EXTERIOR_COLOUR_PATH + "silver_front.png");
+  document
+    .querySelector(".exterior-back")
+    .setAttribute("src", EXTERIOR_COLOUR_PATH + "silver_back.png");
 }
 
 function whiteExterior() {
@@ -62,6 +74,9 @@ function whiteExterior() {
   document
     .querySelector(".exterior-front")
     .setAttribute("src", EXTERIOR_COLOUR_PATH + "white_front.png");
+  document
+    .querySelector(".exterior-back")
+    .setAttribute("src", EXTERIOR_COLOUR_PATH + "white_back.png");
 }
 
 function beigeInterior() {
