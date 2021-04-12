@@ -21,8 +21,10 @@ function showExteriorView() {
 
 function blueExterior() {
   document
-    .querySelector(".exterior-side")
-    .setAttribute("src", EXTERIOR_COLOUR_PATH + "blue.png");
+    .querySelectorAll(".exterior-side")
+    .forEach((item) =>
+      item.setAttribute("src", EXTERIOR_COLOUR_PATH + "blue.png")
+    );
   document
     .querySelector(".exterior-front")
     .setAttribute("src", EXTERIOR_COLOUR_PATH + "blue_front.png");
@@ -33,8 +35,10 @@ function blueExterior() {
 
 function greyExterior() {
   document
-    .querySelector(".exterior-side")
-    .setAttribute("src", EXTERIOR_COLOUR_PATH + "grey.png");
+    .querySelectorAll(".exterior-side")
+    .forEach((item) =>
+      item.setAttribute("src", EXTERIOR_COLOUR_PATH + "grey.png")
+    );
   document
     .querySelector(".exterior-front")
     .setAttribute("src", EXTERIOR_COLOUR_PATH + "grey_front.png");
@@ -45,8 +49,10 @@ function greyExterior() {
 
 function redExterior() {
   document
-    .querySelector(".exterior-side")
-    .setAttribute("src", EXTERIOR_COLOUR_PATH + "red.png");
+    .querySelectorAll(".exterior-side")
+    .forEach((item) =>
+      item.setAttribute("src", EXTERIOR_COLOUR_PATH + "red.png")
+    );
   document
     .querySelector(".exterior-front")
     .setAttribute("src", EXTERIOR_COLOUR_PATH + "red_front.png");
@@ -57,8 +63,10 @@ function redExterior() {
 
 function silverExterior() {
   document
-    .querySelector(".exterior-side")
-    .setAttribute("src", EXTERIOR_COLOUR_PATH + "silver.png");
+    .querySelectorAll(".exterior-side")
+    .forEach((item) =>
+      item.setAttribute("src", EXTERIOR_COLOUR_PATH + "silver.png")
+    );
   document
     .querySelector(".exterior-front")
     .setAttribute("src", EXTERIOR_COLOUR_PATH + "silver_front.png");
@@ -69,8 +77,10 @@ function silverExterior() {
 
 function whiteExterior() {
   document
-    .querySelector(".exterior-side")
-    .setAttribute("src", EXTERIOR_COLOUR_PATH + "white.png");
+    .querySelectorAll(".exterior-side")
+    .forEach((item) =>
+      item.setAttribute("src", EXTERIOR_COLOUR_PATH + "white.png")
+    );
   document
     .querySelector(".exterior-front")
     .setAttribute("src", EXTERIOR_COLOUR_PATH + "white_front.png");
