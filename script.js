@@ -81,18 +81,27 @@ function whiteExterior() {
 
 function beigeInterior() {
   document
-    .querySelector(".interior-view")
+    .querySelector(".interior-front")
+    .setAttribute("src", INTERIOR_COLOUR_PATH + "beige_front.jpg");
+  document
+    .querySelector(".interior-side")
     .setAttribute("src", INTERIOR_COLOUR_PATH + "beige.jpg");
 }
 
 function blackInterior() {
   document
-    .querySelector(".interior-view")
+    .querySelector(".interior-front")
+    .setAttribute("src", INTERIOR_COLOUR_PATH + "black_front.jpg");
+  document
+    .querySelector(".interior-side")
     .setAttribute("src", INTERIOR_COLOUR_PATH + "black.jpg");
 }
 
 function redInterior() {
   document
-    .querySelector(".interior-view")
+    .querySelector(".interior-front")
+    .setAttribute("src", INTERIOR_COLOUR_PATH + "red_front.jpg");
+  document
+    .querySelector(".interior-side")
     .setAttribute("src", INTERIOR_COLOUR_PATH + "red.jpg");
 }
